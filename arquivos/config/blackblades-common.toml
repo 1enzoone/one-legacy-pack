@@ -1,0 +1,370 @@
+
+#Black Blades Configuration
+[blackblade_requirements]
+	#Time in ticks the sword must be imbued with Busoshoku Haki.
+	#Default: 36000 (30 minutes). 20 ticks = 1 second.
+	#Range: 0 ~ 9223372036854775807
+	hakiImbueTimeRequired = 36000
+	#Number of strong enemy kills required while imbuing.
+	#Default: 50
+	#Range: > 0
+	strongKillsRequired = 50
+	#Minimum doriki an enemy must have to count as a 'strong' kill.
+	#Default: 1500.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	dorikiThreshold = 1500.0
+	#Time in ticks the sword must be wielded by the owner.
+	#Default: 72000 (1 hour). 20 ticks = 1 second.
+	#Range: 0 ~ 9223372036854775807
+	wieldTimeRequired = 72000
+
+#Black Blade Base Effects
+#These are the core bonuses applied to all Black Blades.
+[blackblade_effects]
+	#Damage multiplier when Busoshoku Haki is active.
+	#Default: 1.15 (15% more damage when imbuing)
+	#Range: 1.0 ~ 5.0
+	hakiDamageMultiplier = 1.15
+	#Percentage of damage that bypasses armor (0-100).
+	#Default: 20.0 (20% of damage ignores armor)
+	#Similar to Parry This armor penetration system.
+	#Range: 0.0 ~ 100.0
+	armorPenetration = 20.0
+	#Effective Unbreaking level for Black Blades.
+	#Default: 5 (Unbreaking V - 83.33% chance to not consume durability)
+	#Range: 1 ~ 10
+	unbreakingLevel = 5
+	#Flat damage bonus added to Black Blade attacks.
+	#Default: 5.0 (adds +5 attack damage)
+	#Range: 0.0 ~ 100.0
+	blackBladeDamageBonus = 5.0
+	#Chance for a newly forged Black Blade to receive a curse.
+	#Default: 0.35 (35%)
+	#Range: 0.0 ~ 1.0
+	cursedBladeChance = 0.35
+	#Additional critical hit damage multiplier.
+	#Default: 0.25 (25% more crit damage, so 1.75x instead of 1.5x)
+	#Range: 0.0 ~ 5.0
+	criticalHitBonus = 0.25
+	#Allow newly forged Black Blades to awaken with a curse.
+	#Default: true
+	enableCursedBlades = true
+
+#Black Blade Rank System
+#Black Blades can evolve through ranks as they are used in battle.
+#Ranks: Forged -> Awakened -> Mastered -> Legendary
+[blackblade_ranks]
+	#Additional flat damage bonus at Awakened rank.
+	#Default: 2.0
+	#Range: 0.0 ~ 50.0
+	awakenedBonusDamage = 2.0
+	#Additional flat damage bonus at Legendary rank (cumulative).
+	#Default: 5.0
+	#Range: 0.0 ~ 50.0
+	legendaryBonusDamage = 5.0
+	#Additional kills after Mastered to reach Legendary rank.
+	#Default: 500
+	#Range: > 1
+	killsForLegendary = 500
+	#Additional armor penetration at Awakened rank.
+	#Default: 5.0
+	#Range: 0.0 ~ 50.0
+	awakenedArmorPen = 5.0
+	#Additional kills after Awakened to reach Mastered rank.
+	#Default: 250
+	#Range: > 1
+	killsForMastered = 250
+	#Enable the rank progression system for Black Blades.
+	#Default: true
+	enableRankSystem = true
+	#Additional kills after forging to reach Awakened rank.
+	#Default: 100
+	#Range: > 1
+	killsForAwakened = 100
+	#Additional armor penetration at Mastered rank (cumulative).
+	#Default: 7.5
+	#Range: 0.0 ~ 50.0
+	masteredArmorPen = 7.5
+	#Additional armor penetration at Legendary rank (cumulative).
+	#Default: 10.0
+	#Range: 0.0 ~ 50.0
+	legendaryArmorPen = 10.0
+	#Additional flat damage bonus at Mastered rank (cumulative).
+	#Default: 3.0
+	#Range: 0.0 ~ 50.0
+	masteredBonusDamage = 3.0
+
+#Meito Grade System
+#Configurable world-limited Meito pools for named swords.
+#Natural Meito assignments consume slots. Admin-set grades do not.
+#Optional direct-grade mode can bypass trials and immediately use the weapon's highest configured grade.
+#Black Blades automatically display one tier higher than their base Meito grade.
+[meito_grades]
+	#Credit Zitoen biography and Emperor achievement progress when BlackBlades forges a blade.
+	#Default: true
+	syncZitoenForgeProgression = true
+	#Let Zitoen Haki mastery and Haki Bloom modestly accelerate BlackBlades Haki forging time.
+	#Default: true
+	useZitoenHakiProgression = true
+	#Allow an active Zitoen Voice of All Things user to cleanse a BlackBlades curse while crouching and right-clicking.
+	#Default: true
+	allowZitoenVoiceCurseCleansing = true
+	#Enable the Meito grading system.
+	#Default: true
+	enableMeitoGrades = true
+	#Requirement multiplier for Grade blackening progress.
+	#0.95 = needs 5% less wield time, haki time, and strong kills.
+	#Range: 0.1 ~ 1.0
+	gradeForgeRequirementMultiplier = 0.95
+	#Requirement multiplier for Supreme Grade blackening progress.
+	#0.70 = needs 30% less wield time, haki time, and strong kills.
+	#Range: 0.1 ~ 1.0
+	supremeForgeRequirementMultiplier = 0.7
+	#Minimum displayed main-hand attack damage for automatic Grade potential.
+	#Weapons below this value are not Meito candidates.
+	#Tool exclusion is controlled by excludeToolItemsFromAutomaticMeito.
+	#Default: 7.0
+	#Range: 0.0 ~ 100.0
+	gradeAttackMin = 7.0
+	#Minimum displayed main-hand attack damage for automatic Supreme Grade potential.
+	#Weapons at or above this value become Supreme Grade.
+	#Default: 12.0
+	#Range: 0.0 ~ 100.0
+	supremeGradeAttackMin = 12.0
+	#When Zitoen Piece is loaded, let BlackBlades own overlapping weapon grades and black blade progression.
+	#Zitoen armor grades and non-overlapping weapon features remain active.
+	#Set to false to keep Zitoen Piece's own grade and black blade systems.
+	#Default: true
+	useBlackBladesSystemsForZitoenPiece = true
+	#Prevent a BlackBlades black blade from also carrying Zitoen's separate curse state.
+	#Recognized legacy curses are mapped where possible and the original data is backed up.
+	#Default: true
+	preventZitoenDualCurses = true
+	#Maximum number of natural Supreme Grade blades per world.
+	#Default: 12
+	#Range: > 0
+	supremeGradeSlots = 12
+	#Rank kill requirement multiplier for Supreme Grade Black Blades.
+	#0.75 = needs 25% fewer post-forge kills for each rank.
+	#Range: 0.1 ~ 1.0
+	supremeRankRequirementMultiplier = 0.75
+	#Migrate existing Zitoen appraised/black blade weapon data into BlackBlades while retaining a backup.
+	#Default: true
+	migrateZitoenLegacyItems = true
+	#Minimum displayed main-hand attack damage for automatic Great Grade potential.
+	#Weapons between this value and the next tier threshold become Great Grade.
+	#Default: 10.0
+	#Range: 0.0 ~ 100.0
+	greatGradeAttackMin = 10.0
+	#Maximum number of natural Skillful Grade blades per world.
+	#Default: 50
+	#Range: > 0
+	skillfulGradeSlots = 50
+	#Minimum displayed main-hand attack damage for automatic Skillful Grade potential.
+	#Weapons between this value and the next tier threshold become Skillful Grade.
+	#Default: 8.0
+	#Range: 0.0 ~ 100.0
+	skillfulGradeAttackMin = 8.0
+	#Rank kill requirement multiplier for Grade Black Blades.
+	#0.98 = needs 2% fewer post-forge kills for each rank.
+	#Range: 0.1 ~ 1.0
+	gradeRankRequirementMultiplier = 0.98
+	#Requirement multiplier for Great Grade blackening progress.
+	#0.80 = needs 20% less wield time, haki time, and strong kills.
+	#Range: 0.1 ~ 1.0
+	greatForgeRequirementMultiplier = 0.8
+	#Maximum number of natural Great Grade blades per world.
+	#Default: 21
+	#Range: > 0
+	greatGradeSlots = 21
+	#Bypass Meito potential, naming checks, slot limits, and trials.
+	#Eligible weapons immediately use their highest configured or canon Meito grade when obtained.
+	#Default: false
+	useHighestGradeWithoutTrials = false
+	#Exclude tool-class items from automatic Meito attack-band grading.
+	#When true, pickaxes/shovels/axes/hoes/shears stay out of automatic Meito potential.
+	#Default: true
+	excludeToolItemsFromAutomaticMeito = true
+	#Requirement multiplier for Skillful Grade blackening progress.
+	#0.90 = needs 10% less wield time, haki time, and strong kills.
+	#Range: 0.1 ~ 1.0
+	skillfulForgeRequirementMultiplier = 0.9
+	#Rank kill requirement multiplier for Skillful Grade Black Blades.
+	#0.95 = needs 5% fewer post-forge kills for each rank.
+	#Range: 0.1 ~ 1.0
+	skillfulRankRequirementMultiplier = 0.95
+	#Prevent Devil Fruit infusion on BlackBlades black blades and stop infused weapons from blackening.
+	#Default: true
+	preventZitoenBlackBladeInfusion = true
+	#Maximum number of natural Grade blades per world.
+	#Default: 200
+	#Range: > 0
+	gradeSlots = 200
+	#Let advanced Zitoen imbuing mastery reduce Enma's Haki drain.
+	#Default: true
+	useZitoenHakiCurseResistance = true
+	#Rank kill requirement multiplier for Great Grade Black Blades.
+	#0.85 = needs 15% fewer post-forge kills for each rank.
+	#Range: 0.1 ~ 1.0
+	greatRankRequirementMultiplier = 0.85
+
+#Meito Rank Overrides
+#Manually override Meito grades/potentials for specific item IDs.
+#Use full item IDs like mineminenomi:wado_ichimonji.
+#Press F3+H in-game to see advanced tooltips with item IDs.
+#A game restart or config reload may be required after editing.
+[meito_overrides]
+	#Enable custom Meito overrides.
+	meitoOverrideEnabled = true
+	#Items in this list will be forced to have Supreme Grade Meito potential.
+	meitoSupremeOverrides = []
+	#Items in this list will be forced to have Grade Meito potential.
+	meitoGradeOverrides = []
+	#Items in this list will be forced to have Skillful Grade Meito potential.
+	meitoSkillfulOverrides = []
+	#Items in this list will be forced to have Great Grade Meito potential.
+	meitoGreatOverrides = []
+	#Items in this list will be forced to have NO Meito potential.
+	meitoNoneOverrides = []
+
+#Statistics Tracking
+#Options for tracking battle statistics on Black Blades.
+[blackblade_tracking]
+	#Track boss/mini-boss kills separately.
+	#Default: true
+	trackBossKills = true
+	#Track total damage dealt with the blade.
+	#Default: true
+	trackTotalDamage = true
+	#Enable tracking of battle statistics on Black Blades.
+	#Default: true
+	enableStatTracking = true
+	#Show notifications when reaching kill milestones.
+	#Default: true
+	showMilestoneNotifications = true
+
+#Visual Effects
+[blackblade_visuals]
+	#Enable particle effects for Black Blades.
+	#Default: true
+	enableParticles = true
+	#Enable special particles on critical hits.
+	#Default: true
+	enableCritParticles = true
+
+#Black Fist System
+#For Brawler and Black Leg fighting styles.
+#Train your fists to become powerful weapons!
+[blackfist_requirements]
+	#Number of strong enemy kills with bare hands.
+	#Default: 75
+	#Range: > 0
+	blackFistStrongKillsRequired = 75
+	#Time in ticks training with fists (combat mode, empty hands).
+	#Default: 72000 (1 hour). 20 ticks = 1 second.
+	#Range: 0 ~ 9223372036854775807
+	blackFistTrainingTimeRequired = 72000
+	#Minimum doriki for 'strong' kill (Black Fist).
+	#Default: 1500.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	blackFistDorikiThreshold = 1500.0
+	#Time in ticks using Busoshoku Haki while in combat mode.
+	#Default: 36000 (30 minutes).
+	#Range: 0 ~ 9223372036854775807
+	blackFistHakiTimeRequired = 36000
+
+#Black Fist Combat Effects
+[blackfist_effects]
+	#Additional critical hit damage multiplier.
+	#Default: 0.20
+	#Range: 0.0 ~ 5.0
+	blackFistCriticalBonus = 0.2
+	#Damage multiplier when Busoshoku Haki is active.
+	#Default: 1.20
+	#Range: 1.0 ~ 5.0
+	blackFistHakiMultiplier = 1.2
+	#Percentage of damage that bypasses armor (0-100).
+	#Default: 15.0
+	#Range: 0.0 ~ 100.0
+	blackFistArmorPenetration = 15.0
+	#Flat damage bonus for unarmed attacks with Black Fist.
+	#Default: 4.0
+	#Range: 0.0 ~ 100.0
+	blackFistDamageBonus = 4.0
+
+#Black Fist Mining System
+#Allows trained fighters to mine with bare hands!
+[blackfist_mining]
+	#Mining level at Supreme Fist (Legendary) rank.
+	#Default: 5 (can break obsidian, ancient debris)
+	#Range: 0 ~ 5
+	mineLevelSupremeFist = 5
+	#Enable bare-hand mining for Black Fist users.
+	#Default: true
+	enableBlackFistMining = true
+	#Mining speed multiplier for bare-hand mining.
+	#1.0 = same as proper tool, lower = slower.
+	#Default: 0.5 (half speed)
+	#Range: 0.1 ~ 2.0
+	miningSpeedMultiplier = 0.5
+	#Mining level at Tekkai Fist rank.
+	#Default: 4 (can break diamond, gold)
+	#Range: 0 ~ 5
+	mineLevelTekkiFist = 4
+	#Maximum mining level before becoming Black Fist.
+	#0=None, 1=Wood, 2=Stone, 3=Iron, 4=Diamond, 5=Netherite
+	#Default: 1 (can break wood)
+	#Range: 0 ~ 5
+	mineLevelUntrainedMax = 1
+	#Mining level at Iron Fist rank.
+	#Default: 2 (can break stone)
+	#Range: 0 ~ 5
+	mineLevelIronFist = 2
+	#Mining level at Steel Fist rank.
+	#Default: 3 (can break iron ore)
+	#Range: 0 ~ 5
+	mineLevelSteelFist = 3
+
+#Black Fist Rank System
+#Ranks: Iron Fist -> Steel Fist -> Tekkai Fist -> Supreme Fist
+[blackfist_ranks]
+	#Kills to reach Steel Fist (Awakened) rank.
+	#Default: 100
+	#Range: > 1
+	blackFistKillsForAwakened = 100
+	#Additional armor penetration at Supreme Fist rank.
+	#Default: 15.0
+	#Range: 0.0 ~ 50.0
+	blackFistLegendaryArmorPen = 15.0
+	#Additional damage at Supreme Fist rank.
+	#Default: 5.0
+	#Range: 0.0 ~ 50.0
+	blackFistLegendaryBonusDamage = 5.0
+	#Kills to reach Tekkai Fist (Mastered) rank.
+	#Default: 250
+	#Range: > 1
+	blackFistKillsForMastered = 250
+	#Enable rank progression for Black Fist.
+	#Default: true
+	enableBlackFistRankSystem = true
+	#Additional armor penetration at Steel Fist rank.
+	#Default: 5.0
+	#Range: 0.0 ~ 50.0
+	blackFistAwakenedArmorPen = 5.0
+	#Additional damage at Steel Fist rank.
+	#Default: 2.0
+	#Range: 0.0 ~ 50.0
+	blackFistAwakenedBonusDamage = 2.0
+	#Kills to reach Supreme Fist (Legendary) rank.
+	#Default: 500
+	#Range: > 1
+	blackFistKillsForLegendary = 500
+	#Additional damage at Tekkai Fist rank.
+	#Default: 3.0
+	#Range: 0.0 ~ 50.0
+	blackFistMasteredBonusDamage = 3.0
+	#Additional armor penetration at Tekkai Fist rank.
+	#Default: 10.0
+	#Range: 0.0 ~ 50.0
+	blackFistMasteredArmorPen = 10.0
+

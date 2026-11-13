@@ -1,0 +1,45 @@
+
+#Toggle individual Curios items on or off.
+#When disabled, the item cannot be equipped and its effects will not activate.
+[item_toggles]
+	#Enable Water Backpack (Fishman Karate on land)
+	water_backpack = true
+	#Enable Seastone Ammo Box (40% bullet save)
+	ammo_box_seastone = true
+	#Enable Haki Manual (Haki XP boost)
+	haki_manual = true
+	#Enable Lineage Factor Vial (cycling buffs)
+	lineage_factor_vial = true
+	#Enable Frontier Dome Projector (damage shield)
+	frontier_dome_projector = true
+	#Enable Super Cola (cyborg cola regen)
+	super_cola = true
+	#Enable Power Viser (enemy scanner HUD)
+	power_viser = true
+	#Enable Ammo Box (20% bullet save)
+	ammo_box_base = true
+	#Enable DOM Shoes (rocket boots)
+	dom_shoes = true
+	#Enable Ice Cube (Mink hot biome boost)
+	ice_cube = true
+	#Enable Observation Lens (unlimited Kenbunshoku Aura)
+	observation_lens = true
+	#Enable Combat Manual (Doriki XP boost)
+	combat_manual = true
+	#Enable Golden Bubbly Coral (permanent Bubbly Coral effect)
+	golden_bubbly_coral = true
+	#Enable Gecko Ring (stealth camouflage)
+	gecko_ring = true
+	#Enable Snail Phone (Black Market access)
+	snail_phone = true
+	#Enable Ring of Cursed Tides (7 curses + 7 blessings)
+	ring_of_cursed_tides = true
+	#Enable Pirate Hook (melee weapon)
+	pirate_hook = true
+	#Enable Sanji's PBS (cosmetic boots)
+	sanjis_pbs = true
+	#Enable Revival Artifact (revival on death)
+	revival_artifact = true
+	#Enable Golden Belly Pouch (bonus Belly on hit)
+	golden_belly_pouch = true
+

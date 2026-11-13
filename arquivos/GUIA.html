@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guia One Legacy</title>
+<style>
+  :root { --bg:#f6efe2; --ink:#2b2118; --muted:#6b5a48; --wood:#8a5a2b; --red:#b3261e; --card:#fffaf1; --line:#e2d3bb; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#17120d; --ink:#f1e7d6; --muted:#b9a68c; --wood:#d39a5c; --red:#ff6b5e; --card:#221a12; --line:#3a2e22; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.6 system-ui, "Segoe UI", sans-serif; }
+  main { max-width:880px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:2.2rem; margin:0 0 4px; color:var(--wood); letter-spacing:.5px; }
+  h1 span { color:var(--red); }
+  .sub { color:var(--muted); margin:0 0 28px; }
+  h2 { margin:36px 0 10px; font-size:1.35rem; border-bottom:2px solid var(--line); padding-bottom:6px; }
+  h3 { margin:20px 0 6px; font-size:1.05rem; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 18px; margin:12px 0; }
+  table { width:100%; border-collapse:collapse; margin:8px 0; }
+  th, td { text-align:left; padding:7px 8px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--muted); font-weight:600; font-size:.9rem; }
+  kbd { display:inline-block; min-width:1.8em; text-align:center; padding:1px 7px; border:1px solid var(--line); border-bottom-width:3px; border-radius:6px; background:var(--card); font:600 .85rem/1.5 ui-monospace, Consolas, monospace; }
+  code { font:.9rem ui-monospace, Consolas, monospace; background:var(--card); border:1px solid var(--line); border-radius:5px; padding:1px 5px; word-break:break-all; }
+  .warn { border-left:4px solid var(--red); }
+  ul { padding-left:22px; }
+  li { margin:4px 0; }
+</style>
+</head>
+<body>
+<main>
+<h1>ONE <span>LEGACY</span></h1>
+<p class="sub">Modpack de One Piece para Minecraft 1.16.5, feito em cima do Mine Mine no Mi.</p>
+
+<h2>Como abrir</h2>
+<div class="card">
+<ul>
+<li>Clique duas vezes no atalho <b>One Legacy</b> da área de trabalho. O jogo abre em 1600x900; <kbd>F11</kbd> deixa em tela cheia.</li>
+<li>Em <b>Jogar</b> já existe o mundo <b>One Piece</b>, pronto, com comandos liberados. Ele começa num porto de ilha.</li>
+<li>Mundo novo: o tipo padrão já é <b>One Piece World Like</b>. A primeira criação demora uns <b>6 minutos</b> (o jogo monta mais de 220 mil pedaços de ilhas) e cada mundo ocupa cerca de <b>1,3 GB</b>. Parece travado, mas não está.</li>
+</ul>
+</div>
+
+<h2>Primeiros passos</h2>
+<div class="card">
+<ol>
+<li><b>Escolha seu caminho</b> no Mine Mine: raça, facção (pirata, marinha, revolucionário, caçador) e estilo de luta. A escolha aparece sozinha na primeira vez que você entra no mundo; depois a tela do personagem fica na tecla <kbd>R</kbd>.</li>
+<li><b>Log Pose</b> (vem na mão ao entrar): mostra as ilhas conhecidas. Em cada ilha há missões (explorar, derrotar criaturas, construir, dormir...). Completando 5 atividades, ele revela as próximas rotas, até <b>Laugh Tale</b>.</li>
+<li><b>Barcos</b>: o Small Ships tem bote a remo, cog, galé, galé de guerra, drakkar, dhow e brigue, com baú de carga. Veja as receitas no JEI (com o inventário aberto, passe o mouse no item e aperte <kbd>R</kbd>).</li>
+<li><b>Waystones</b>: fabrique uma pedra de teleporte em cada ilha importante e viaje entre elas.</li>
+<li><b>Vida a bordo</b>: redes e sacos de dormir (Comforts), mochilas que crescem com melhorias (Sophisticated Backpacks), móveis (Macaw's Furniture) e decoração com bandeiras, placas e globos (Supplementaries) para montar seu navio e sua base.</li>
+<li><b>Construção</b>: telhados, janelas, portas, alçapões, pontes, cercas, luminárias e caminhos (mods do Macaw) e vigas, correntes e braseiros (Decorative Blocks), para montar vilas, portos e bases.</li>
+<li><b>Animais</b> (Alex's Mobs): orcas, tubarões, cachalotes, crocodilos, gorilas, tigres e muitos outros pelo mundo e no mar.</li>
+<li><b>Bússolas</b>: a <b>Nature's Compass</b> acha biomas e a <b>Explorer's Compass</b> acha estruturas (bases da Marinha, navios, dojos...). A busca é feita aos poucos, sem travar o jogo.</li>
+<li><b>Morreu?</b> Seus itens ficam num túmulo (Corail Tombstone) no lugar da morte. A fruta não se perde.</li>
+</ol>
+</div>
+
+<h2>Teclas</h2>
+<table>
+<tr><th>Tecla</th><th>O que faz</th></tr>
+<tr><td><kbd>R</kbd></td><td>Tela do personagem (Mine Mine): estatísticas, escolha de raça/facção/estilo, habilidades, missões e desafios</td></tr>
+<tr><td><kbd>Alt</kbd> esquerdo</td><td>Modo de combate: as teclas <kbd>1</kbd>–<kbd>8</kbd> passam a usar as habilidades da barra</td></tr>
+<tr><td><kbd>[</kbd> <kbd>]</kbd></td><td>Troca a barra de habilidades (agora são 4 barras)</td></tr>
+<tr><td><kbd>Shift</kbd> / <kbd>Ctrl</kbd></td><td>Também mudam o modo da habilidade / do veículo no Mine Mine</td></tr>
+<tr><td><kbd>G</kbd></td><td>Acessórios (Curios)</td></tr>
+<tr><td><kbd>N</kbd></td><td>Esquiva com Haki da Observação (Zitoen Piece)</td></tr>
+<tr><td><kbd>H</kbd></td><td>Foguetes do MM Curios</td></tr>
+<tr><td><kbd>F6</kbd> <kbd>F7</kbd> <kbd>F8</kbd></td><td>Habilidades do Mine Mine Add-ons (estilo de 3 espadas do Zoro etc.)</td></tr>
+<tr><td><kbd>M</kbd></td><td>Mapa-múndi (Xaero). <kbd>Z</kbd> aumenta o minimapa, <kbd>B</kbd> marca um ponto, <kbd>U</kbd> lista os pontos, <kbd>Y</kbd> ajustes do minimapa</td></tr>
+<tr><td><kbd>Caps Lock</kbd> (segurar)</td><td>Falar no chat de voz (Simple Voice Chat). <kbd>O</kbd> abre o menu de voz (volume, microfone, grupos)</td></tr>
+<tr><td colspan="2"><b>No barco</b> (Small Ships): <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> guiam, <kbd>V</kbd> abre/fecha a vela, <kbd>J</kbd>/<kbd>K</kbd> baixam/sobem a vela, <kbd>I</kbd> carga</td></tr>
+<tr><td><kbd>F5</kbd></td><td>Câmera em terceira pessoa (melhorada pelo Better Third Person)</td></tr>
+</table>
+<p class="sub">Todas podem ser trocadas em Opções → Controles.</p>
+
+<h2>Progressão</h2>
+<div class="card">
+<ul>
+<li><b>Doriki</b> é a sua força. Sobe derrotando inimigos e dá vida extra. Máximo: 10.000.</li>
+<li><b>Haki</b> sobe usando o Haki (Armamento, Observação e, para poucos, Conquistador).</li>
+<li>No One Legacy o ganho de Doriki e de Haki é <b>50% mais rápido</b>, e ao morrer você mantém a fruta, 75% do Doriki e do Haki e metade da recompensa e do dinheiro.</li>
+<li><b>Frutas</b>: vêm de baús. Perto do começo, procure as <b>caravanas</b> (evento do Mine Mine que aparece pelo mundo, com baús que trazem frutas e <b>caixas de fruta</b> de madeira, ferro e ouro) e baús de tesouro enterrado; raramente uma fruta cai ao quebrar <b>folhas</b>. Navios, bases e acampamentos do Mine Mine, com os melhores baús, ficam nas áreas mais distantes do mapa. Os <b>comerciantes</b> vendem espadas, Dials e equipamentos, e vice-almirantes e capitães famosos podem lutar com poderes de fruta (mas não deixam a fruta ao morrer).</li>
+<li><b>Despertar</b>: o Awaken Path libera as habilidades despertadas quando seu Doriki chega a 10.000 (o despertar das frutas está ligado no One Legacy).</li>
+</ul>
+<h3>Gear 5</h3>
+<p>A Gomu Gomu no Mi do pack é a versão Nika (addon <i>Hito Hito no Mi Model Nika</i>): Gear 2, 3, 4 e <b>Gear 5</b>, com golpes Dawn, Bajrang e o modo gigante. O Gear 5 vem com o despertar; se ele não aparecer nas habilidades (tela <kbd>R</kbd>), use o atalho <code>/ability give hito_hito_no_mi_nika:gear_fifth</code>.</p>
+</div>
+
+<h2>Espadas e Haki</h2>
+<div class="card">
+<ul>
+<li>Quase todas as espadas são <b>3D</b>, com bainha e versão escura com Haki. Enma, Wado Ichimonji, Sandai e Nidai Kitetsu, Shusui, Yubashiri, Yoru, Ame no Habakiri, Kikoku e Gryphon têm modelos detalhados próprios do One Legacy: lâmina curva com aresta e linha de têmpera, ponta inclinada, guarda com desenho e vazados de cada espada, cabo com trança em relevo, pinos e pomo.</li>
+<li><b>Bainhas 3D</b>: guardada (fora do modo de combate), cada espada aparece na própria bainha, com cordão e acabamento no estilo dela (Wado preta, Yubashiri branca, Enma roxa e dourada...). Também têm modelo detalhado a Shodai e a Shinko Kitetsu, a Shigure, a Durandal e o bisento Murakumogiri do Barba Branca.</li>
+<li><b>Lâmina Negra</b> (addon Black Blades): ao forjar uma espada como lâmina negra, ela continua com o modelo 3D, agora com a lâmina preta e o fio vermelho.</li>
+<li><b>Espadas do Zoro</b>, nas duas fases: primeira fase Wado Ichimonji + Sandai Kitetsu + Yubashiri (a Yubashiri vem do CartAddon); depois do salto Wado + Sandai Kitetsu + Shusui, trocada pela Enma em Wano. O estilo <b>Santoryu</b> (três espadas) se aprende com o treinador Santoryu do CartAddon. Para usar: uma espada em cada mão (mão principal e segunda mão) e a terceira no slot <b>Boca</b> dos acessórios (Curios). Com o estilo Santoryu, a espada da boca aparece no rosto do personagem. Teste rápido em modo criativo: <code>/change_character style @s cartaddon:santoryu</code>.</li>
+<li><b>Haki na lâmina</b>: com o Haki ligado a lâmina fica negra e brilhante, com ondas de energia subindo do cabo até a ponta e uma aura de chamas na cor da espada. Ao <b>ligar</b> o Haki, a camada negra sobe pela lâmina, sai uma onda de choque pelo chão e raios negros e vermelhos estalam em volta.</li>
+<li>Fora do <b>modo de combate</b> o Mine Mine mostra a espada embainhada; aperte <kbd>Alt</kbd> esquerdo para sacar a lâmina.</li>
+<li><b>Ondas de corte</b>: cada golpe deixa um rastro na cor da espada (Enma roxo, Wado branco, Kitetsu vermelho, Yoru verde, Kikoku ciano...). Com Haki, a onda fica maior, escura com borda vermelha, e voa para frente.</li>
+<li>Ative o <b>Haki do Armamento</b> na espada pelas habilidades: a lâmina escurece e solta névoa roxa, faíscas e raios vermelhos; cada golpe deixa uma meia-lua escura e o impacto estala com raios.</li>
+<li>Black Blades: usando uma espada com Haki por muito tempo e vencendo inimigos fortes, ela vira uma <b>lâmina negra</b> permanente.</li>
+<li>Quantidade de efeitos, som e ondas: <code>config/onelegacyfx-client.toml</code> (intensidade de 0.25 a 2; <code>waves = false</code> desliga as ondas de corte, <code>aura = false</code> desliga as ondas de Haki na lâmina e a onda de choque).</li>
+</ul>
+</div>
+
+<h2>Comandos úteis (mundo com comandos)</h2>
+<table>
+<tr><th>Comando</th><th>Para quê</th></tr>
+<tr><td><code>/give @s mineminenomi:gomu_gomu_no_mi</code></td><td>Fruta Gomu (Nika)</td></tr>
+<tr><td><code>/doriki 10000</code></td><td>Doriki no máximo</td></tr>
+<tr><td><code>/ability give hito_hito_no_mi_nika:gear_fifth</code></td><td>Atalho: dá o Gear 5 direto (coloque na barra pela tela <kbd>R</kbd>)</td></tr>
+<tr><td><code>/hakiexp all 300</code></td><td>Dá 300 de experiência de Haki</td></tr>
+<tr><td><code>/give @s mineminenomi:yoru</code></td><td>Uma espada (troque o nome: shusui, enma, wado_ichimonji, sandai_kitetsu...)</td></tr>
+<tr><td><code>/give @s smallships:oak_cog</code></td><td>Um barco</td></tr>
+<tr><td><code>/give @s opwllegacy:log_pose</code></td><td>Log Pose novo</td></tr>
+</table>
+
+<h2>Jogar com amigos</h2>
+<div class="card">
+<p>O pack foi montado para servidor: todos precisam do mesmo pack. Tem <b>chat de voz por proximidade</b> (segure <kbd>Caps Lock</kbd> para falar; quem está perto ouve), Waystones para viajar juntos e mapa com pontos marcados.</p>
+<p>O servidor de teste está em <code>C:\Users\enzor\MineMine-Pack-1165-Servidor</code> (leia o <code>LEIA-ME.txt</code> de lá). Rodar o servidor e jogar no mesmo PC usa até 9 GB de memória.</p>
+<h3>Passar o pack para um amigo</h3>
+<p><b>Quem tem o app do CurseForge</b>: mande o <code>One Legacy (CurseForge).zip</code>. No app: <b>Minecraft → Criar perfil personalizado → Importar</b> e escolha o zip. O app baixa os mods sozinho; configurações, teclas, menu e pacotes de textura já vêm dentro do zip.</p>
+<p><b>Quem joga por outro launcher</b> (SKLauncher, TLauncher...): mande o <code>One Legacy (Launcher alternativo).zip</code>. Dentro tem o <code>COMO INSTALAR.txt</code>, o instalador do Forge 1.16.5-36.2.42 e a pasta do pack pronta para copiar.</p>
+</div>
+
+<h2>Bom saber</h2>
+<div class="card warn">
+<ul>
+<li>Alguns mods não têm tradução e aparecem em inglês.</li>
+<li>Os barcos andam no máximo de velocidade que o Small Ships permite, mas o mapa é enorme: para viagens longas, use Waystones entre as ilhas.</li>
+<li>O Katakuri do Zitoen Piece não aparece (falha do próprio addon).</li>
+<li>No mundo do One Piece, <code>/locate</code>, Olho do Ender e mapas de tesouro podem congelar o jogo por um bom tempo (o mapa é gigante). Prefira o Log Pose e o mapa (<kbd>M</kbd>).</li>
+<li>Alguns chefes do Zitoen Piece (como Figarland Shamrock e Enel) têm habilidades quebradas que derrubavam o jogo quando morriam. O mod do pack corrige isso: eles morrem normalmente, com recompensa.</li>
+<li>As habilidades quebram blocos ("Ability Griefing"). Para proteger uma base, desligue em <code>config/mineminenomi-common.toml</code>.</li>
+<li>O fundo do menu e o atalho podem ser refeitos com os scripts em <code>dev/</code>.</li>
+</ul>
+</div>
+</main>
+</body>
+</html>

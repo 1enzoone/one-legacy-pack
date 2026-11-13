@@ -1,0 +1,138 @@
+
+[weapons]
+	#If true, treat any item whose registry path contains 'sword' as a sword for sword-based styles (swordsman, santoryu, nitoryu, hasshoken).
+	match_registry_name_contains_sword = false
+	#Default Art of Weather level for non-Clima Tact allowlisted items (1-3).
+	#Higher levels unlock more abilities. 3 equals Sorcery Clima Tact.
+	#Range: 1 ~ 3
+	art_of_weather_default_level = 3
+	#If true, show bonus tooltips for fighting styles on the client.
+	enable_bonus_tooltips = true
+
+	#Items that receive bonus tooltips for Dagger style (Cart Addon)
+	[weapons.dagger]
+		#Extra items that should receive the Dagger bonuses. Accepts list entries or comma-separated values (modid:itemid).
+		item_whitelist = []
+		#Items that should NOT receive the Dagger bonuses (modid:itemid).
+		item_blacklist = []
+
+	#Items that receive bonus tooltips for Hasshoken style
+	[weapons.hasshoken]
+		#Extra items that should receive the Hasshoken bonus. Accepts list entries or comma-separated values (modid:itemid).
+		item_whitelist = []
+		#Items that should NOT receive the Hasshoken bonus (modid:itemid).
+		item_blacklist = []
+
+	#Items that receive bonus tooltips for Saber style (Cart Addon)
+	[weapons.saber]
+		#Extra items that should receive the Saber bonus. Accepts list entries or comma-separated values (modid:itemid).
+		item_whitelist = []
+		#Items that should NOT receive the Saber bonus (modid:itemid).
+		item_blacklist = []
+
+	#Items that receive bonus tooltips for Great Blade style (Cart Addon)
+	[weapons.greatsword]
+		#Extra items that should receive the Great Blade bonus. Accepts list entries or comma-separated values (modid:itemid).
+		item_whitelist = []
+		#Items that should NOT receive the Great Blade bonus (modid:itemid).
+		item_blacklist = []
+
+	#Items that receive bonus tooltips for Nitoryu style
+	[weapons.nitoryu]
+		#Extra items that should receive the Nitoryu bonuses. Accepts list entries or comma-separated values (modid:itemid).
+		item_whitelist = []
+		#Items that should NOT receive the Nitoryu bonuses (modid:itemid).
+		item_blacklist = []
+
+	#Items that receive bonus tooltips for Spear style (Cart Addon)
+	[weapons.spear]
+		#Extra items that should receive the Spear bonus. Accepts list entries or comma-separated values (modid:itemid).
+		item_whitelist = []
+		#Items that should NOT receive the Spear bonus (modid:itemid).
+		item_blacklist = []
+
+	#Items that receive bonus tooltips for Twin Barrel style (Cart Addon)
+	[weapons.twin_barrel]
+		#Extra items that should receive the Twin Barrel bonus. Accepts list entries or comma-separated values (modid:itemid).
+		item_whitelist = []
+		#Items that should NOT receive the Twin Barrel bonus (modid:itemid).
+		item_blacklist = []
+
+	#Items that can USE fighting style abilities (bypasses item type checks)
+	[weapons.allowlists]
+		#Items that should count as guns for Cart Addon Twin Barrel style.
+		#Use registry names like 'modid:itemid'.
+		twin_barrel_items = []
+		#Extra items that should count as the third sword (mouth slot) for Cart Addon Santoryu.
+		#This is a mouth-slot-specific override on top of normal swords and the shared sword allowlist above.
+		#Use registry names like 'modid:itemid'.
+		santoryu_third_sword_items = []
+		#Items that should count as Clima Tact for Art of Weather.
+		#Use registry names like 'modid:itemid'.
+		art_of_weather_items = []
+		#Items that should count as spears for Cart Addon Spear style.
+		#Use registry names like 'modid:itemid'.
+		spear_items = []
+		#Items that should NOT count as greatswords for Cart Addon Great Blade style.
+		#Use registry names like 'modid:itemid'.
+		greatsword_blacklist = []
+		#Items that should NOT count as spears for Cart Addon Spear style.
+		#Use registry names like 'modid:itemid'.
+		spear_blacklist = []
+		#Items that should count as empty-hand for Brawler/Black Leg/Ryusoken.
+		#Use registry names like 'modid:itemid'.
+		brawler_blackleg_ryusoken_items = []
+		#Items that should count as daggers for Cart Addon Dagger style.
+		#Use registry names like 'modid:itemid'.
+		dagger_items = []
+		#Items that should NOT count as axes for Cart Addon Double Axe style.
+		#Use registry names like 'modid:itemid'.
+		dual_axe_blacklist = []
+		#Items that should count as greatswords for Cart Addon Great Blade style.
+		#Use registry names like 'modid:itemid'.
+		greatsword_items = []
+		#Items that should count as swords for Swordsman/Santoryu/Nitoryu.
+		#This shared sword allowlist also applies to Cart Addon's Santoryu mouth slot.
+		#Use registry names like 'modid:itemid'.
+		swordsman_santoryu_nitoryu_items = []
+		#Items that should count as axes for Cart Addon Double Axe style.
+		#Use registry names like 'modid:itemid'.
+		dual_axe_items = []
+		#Items that should count as blunt weapons for Hasshoken/Bludgeon.
+		#Use registry names like 'modid:itemid'.
+		hasshoken_bludgeon_items = []
+		#Items that should NOT count as daggers for Cart Addon Dagger style.
+		#Use registry names like 'modid:itemid'.
+		dagger_blacklist = []
+		#Items that should count as bows for Sniper/Twin Shooter.
+		#Use registry names like 'modid:itemid'.
+		sniper_twin_shooter_items = []
+
+	#Items that receive bonus tooltips for Swordsman style
+	[weapons.swordsman]
+		#Extra items that should receive the Swordsman bonus. Accepts list entries or comma-separated values (modid:itemid).
+		item_whitelist = []
+		#Items that should NOT receive the Swordsman bonus (modid:itemid).
+		item_blacklist = []
+
+	#Items that receive bonus tooltips for Dual Axe style (Cart Addon)
+	[weapons.dual_axe]
+		#Extra items that should receive the Dual Axe bonus. Accepts list entries or comma-separated values (modid:itemid).
+		item_whitelist = []
+		#Items that should NOT receive the Dual Axe bonus (modid:itemid).
+		item_blacklist = []
+
+	#Items that receive bonus tooltips for Bludgeon style
+	[weapons.bludgeon]
+		#Extra items that should receive the Bludgeon bonus. Accepts list entries or comma-separated values (modid:itemid).
+		item_whitelist = []
+		#Items that should NOT receive the Bludgeon bonus (modid:itemid).
+		item_blacklist = []
+
+	#Items that receive bonus tooltips for Santoryu style
+	[weapons.santoryu]
+		#Extra items that should receive the Santoryu bonus. Accepts list entries or comma-separated values (modid:itemid).
+		item_whitelist = []
+		#Items that should NOT receive the Santoryu bonus (modid:itemid).
+		item_blacklist = []
+

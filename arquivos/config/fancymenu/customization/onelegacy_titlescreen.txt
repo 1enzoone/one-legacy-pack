@@ -1,0 +1,223 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  scale = 3
+  autoscale = true
+  basewidth = 1920
+  baseheight = 1017
+  action = setscale
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = config/fancymenu/assets/onelegacy/background.png
+  action = texturizebackground
+}
+
+customization {
+  action = deep_customization_element:title_screen_logo
+  hidden = true
+}
+
+customization {
+  action = deep_customization_element:title_screen_splash
+  hidden = true
+}
+
+customization {
+  action = deep_customization_element:title_screen_branding
+  hidden = true
+}
+
+customization {
+  action = deep_customization_element:title_screen_realms_notification
+  hidden = true
+}
+
+customization {
+  action = deep_customization_element:title_screen_forge_copyright
+  hidden = true
+}
+
+customization {
+  action = deep_customization_element:title_screen_forge_top
+  hidden = true
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = Multijogador
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = movebutton
+  orientation = top-right
+  x = -100
+  y = 8
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = resizebutton
+  width = 92
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttontexture
+  backgroundnormal = config/fancymenu/assets/onelegacy/button_normal.png
+  backgroundhovered = config/fancymenu/assets/onelegacy/button_hover.png
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = Jogar
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = movebutton
+  orientation = mid-centered
+  x = -86
+  y = 11
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = resizebutton
+  width = 172
+  height = 24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttontexture
+  backgroundnormal = config/fancymenu/assets/onelegacy/button_normal.png
+  backgroundhovered = config/fancymenu/assets/onelegacy/button_hover.png
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = Opções
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = movebutton
+  orientation = mid-centered
+  x = -86
+  y = 37
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = resizebutton
+  width = 172
+  height = 24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttontexture
+  backgroundnormal = config/fancymenu/assets/onelegacy/button_normal.png
+  backgroundhovered = config/fancymenu/assets/onelegacy/button_hover.png
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = Mods
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = movebutton
+  orientation = mid-centered
+  x = -86
+  y = 64
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = resizebutton
+  width = 172
+  height = 24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttontexture
+  backgroundnormal = config/fancymenu/assets/onelegacy/button_normal.png
+  backgroundhovered = config/fancymenu/assets/onelegacy/button_hover.png
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = Sair
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = movebutton
+  orientation = mid-centered
+  x = -86
+  y = 90
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = resizebutton
+  width = 172
+  height = 24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttontexture
+  backgroundnormal = config/fancymenu/assets/onelegacy/button_normal.png
+  backgroundhovered = config/fancymenu/assets/onelegacy/button_hover.png
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+}
+

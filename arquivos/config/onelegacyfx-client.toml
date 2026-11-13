@@ -1,0 +1,16 @@
+
+[haki]
+	#Quantidade de particulas (0.25 = pouco, 1 = normal, 2 = muito)
+	#Range: 0.25 ~ 2.0
+	intensity = 1.0
+	#Ondas de corte coloridas ao golpear com espadas (com Haki a onda voa para frente)
+	waves = true
+	#Sons ao ativar o Haki e ao acertar
+	sounds = true
+	#Efeitos de Haki nas espadas
+	enabled = true
+	#Ondas de Haki fluindo pela lamina e onda de choque ao ativar o Haki
+	aura = true
+	#Mostrar os efeitos na sua propria espada em primeira pessoa
+	firstPerson = true
+

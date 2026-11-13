@@ -1,0 +1,44 @@
+
+#Black Blades Client Configuration
+#Visual and rendering options for Black Blades.
+#Use these options if you're using a 3D resource pack and
+#don't want Black Blade textures to override it.
+[visual_options]
+	#Completely disable all Black Blade texture/model changes.
+	#Black Blades will still work (damage bonus, etc) but will
+	#look like normal weapons. Use this if you have a custom
+	#resource pack you want to preserve.
+	#Default: false
+	disableAllTextureChanges = false
+	#Disable the dark purple tint applied to black blades
+	#that don't have custom textures.
+	#Default: false
+	disableFallbackTint = false
+	#Instead of using custom BlackBlade textures, ALWAYS use
+	#the base MMNM Busoshoku Haki cover visuals for Black Blades.
+	#This forces the dark purple tint or the _haki model natively.
+	#Default: false
+	useBaseMnmHakiVisuals = false
+
+#Per-Item Exclusions
+#List of item IDs to exclude from Black Blade texture changes.
+#Format: "modid:itemname" (e.g., "mineminenomi:yoru", "cartaddon:shigure")
+#These items will keep their original appearance even when forged.
+#
+#Common Mine Mine No Mi weapons:
+#  mineminenomi:yoru, mineminenomi:shusui, mineminenomi:enma
+#  mineminenomi:wado_ichimonji, mineminenomi:sandai_kitetsu
+#  mineminenomi:nidai_kitetsu, mineminenomi:gryphon
+#  mineminenomi:ace, mineminenomi:murakumogiri, mineminenomi:bisento
+#
+#Common Cart Addon weapons:
+#  cartaddon:shigure, cartaddon:shodai_kitetsu, cartaddon:kakusan
+#  cartaddon:raiu, cartaddon:rogers_ace, cartaddon:yubashiri
+#  cartaddon:soto_muso, cartaddon:sukesan, cartaddon:yakuza_kasen
+#  cartaddon:shinko_kitetsu, cartaddon:rayu_shiru, cartaddon:ragnir
+[excluded_items]
+	#Items to exclude from Black Blade visual changes.
+	#Add item IDs here to keep their original textures when forged.
+	#Example: ["mineminenomi:yoru", "cartaddon:shigure"]
+	excludedItems = []
+
