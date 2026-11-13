@@ -1,0 +1,236 @@
+
+#Sol's AuthLogin System Configuration
+[general]
+
+	#Security Settings
+	[general.security]
+		#Kick player after too many failed login attempts
+		kickOnLockout = true
+		#Require the local owner to authenticate in integrated single-player worlds
+		enableInSingleplayer = false
+		#Require at least one number in password
+		requireNumber = false
+		#Require at least one special character in password
+		requireSpecialChar = false
+		#Minimum password length
+		#Range: 4 ~ 32
+		minPasswordLength = 6
+		#Seconds to lock player out after max failed attempts
+		#Range: 30 ~ 3600
+		lockoutTimeSeconds = 300
+		#Maximum failed login attempts before temporary lockout
+		#Range: 1 ~ 20
+		maxLoginAttempts = 5
+		#Maximum password length
+		#Range: 8 ~ 128
+		maxPasswordLength = 32
+		#Enable automatic re-login if player reconnects from same IP within session timeout
+		enableSessionCache = true
+		#Require players to have Sol's AuthLogin mod installed on client (recommended for token auto-login)
+		requireClientMod = true
+		#Prevent multiple players from logging into the same account simultaneously
+		preventMultipleLogins = true
+
+	#Spawn and Teleport Settings
+	[general.spawn]
+		#Auth staging X coordinate when teleportToSpawn=true and useWorldSpawn=false
+		#Range: -30000000 ~ 30000000
+		customSpawnX = 0
+		#Auth staging Y coordinate when teleportToSpawn=true and useWorldSpawn=false
+		#Range: 0 ~ 256
+		customSpawnY = 100
+		#Return players to their saved pre-auth position after login (requires teleportToSpawn)
+		teleportBackAfterLogin = true
+		#Move unauthenticated players to the auth staging spawn while spectator-locked
+		teleportToSpawn = true
+		#When teleportToSpawn is true, use world spawn for auth staging
+		useWorldSpawn = true
+		#Auth staging Z coordinate when teleportToSpawn=true and useWorldSpawn=false
+		#Range: -30000000 ~ 30000000
+		customSpawnZ = 0
+
+	#Message Settings
+	[general.messages]
+		#Post-auth title for newly registered players
+		postAuthRegisterTitleMessage = "§a§lWelcome!"
+		#Message shown when unauthenticated player tries to chat
+		authChatBlockedMessage = "§cYou must authenticate before chatting!"
+		#Message shown when token auto-login succeeds, supports %d for grace seconds
+		autoLoginSuccessMessage = "§a§lAuto-Login: §fToken verified! Returning to your location in §e%d seconds§f..."
+		#Admin message after resetpassword, supports %s for target player
+		adminResetPasswordSuccessMessage = "§aPassword reset for %s!"
+		#Credential manager wrong-password lock message, supports %d for lockout seconds
+		credentialWrongPasswordLockedMessage = "§cWrong password! Account locked for %d seconds."
+		#Admin error when target is not online, supports %s for target player
+		adminPlayerNotOnlineMessage = "§cPlayer %s is not online!"
+		#Subtitle shown to registered players on join
+		loginPromptSubtitleMessage = "§fUse /login <password>"
+		#Teleport-back countdown action bar, supports %d for remaining seconds
+		teleportBackCountdownActionBarMessage = "§eTeleporting to your last location in §f%ds§e..."
+		#Message shown on successful registration when no teleport-back countdown is used
+		registerSuccessNoTeleportMessage = "§aRegistration successful! You are now logged in."
+		#Title shown to player on admin force logout
+		adminForceLogoutTitle = "§c§lLogged Out"
+		#Kick message for too many wrong password attempts
+		kickWrongPasswordMessage = "§cKicked: Too many failed login attempts. Please wait before reconnecting."
+		#Relative-time text for days, supports %d
+		timeDaysAgoMessage = "%d days ago"
+		#Admin message after unregister, supports %s for target player
+		adminUnregisterSuccessMessage = "§aPlayer %s has been unregistered!"
+		#Message shown to new players who need to register
+		registerPromptMessage = "§6Welcome! Please register with §e/register <password> <password>"
+		#Admin error when target is not registered, supports %s for target player
+		adminPlayerNotRegisteredMessage = "§cPlayer %s is not registered!"
+		#Admin error when target is already logged in, supports %s for target player
+		adminPlayerAlreadyLoggedInMessage = "§cPlayer %s is already logged in!"
+		#Subtitle shown to unregistered player on admin force logout
+		adminForceLogoutSubtitleRegister = "§eUse /register <password> <password>"
+		#Credential manager error when user is not registered
+		credentialNotRegisteredMessage = "§cYou are not registered! Use /register <password> <password>"
+		#Post-auth subtitle when player is immediately ready to play
+		postAuthReadySubtitleMessage = "§aYou are ready to play."
+		#Kick message for login timeout
+		timeoutKickMessage = "§cKicked: Login timeout exceeded. Please reconnect and login."
+		#Message shown when a username is already authenticated from another session
+		duplicateLoginMessage = "§cAnother player is already logged in with this username!"
+		#Message shown on successful login when no teleport-back countdown is used
+		loginSuccessNoTeleportMessage = "§aLogin successful!"
+		#Player notification when admin force-logs them out
+		adminForceLogoutNotifyMessage = "§cYou have been logged out by an administrator."
+		#Relative-time text for no login history
+		timeNeverMessage = "Never"
+		#Message shown on successful registration
+		registerSuccessMessage = "§aRegistration successful! You are now logged in. Teleporting in %d seconds..."
+		#Action bar reminder for unregistered players, supports %d for seconds remaining
+		authReminderRegisterActionBarMessage = "§eRegister required! §f%ds remaining §7- /register <password> <password>"
+		#Credential manager lockout wait message, supports %d for remaining seconds
+		credentialTooManyFailedWaitMessage = "§cToo many failed attempts. Please wait %d seconds."
+		#Title shown to player on admin force login
+		adminForceLoginTitle = "§a§lForce Login"
+		#Kick message sent to online player after admin unregister
+		adminUnregisterKickMessage = "§cYour account has been unregistered."
+		#Message shown when already-authenticated player runs login/register
+		alreadyLoggedInMessage = "§eYou are already logged in!"
+		#Admin message after auth_admin reload
+		adminReloadSuccessMessage = "§aAuthentication system reloaded!"
+		#Credential manager error when changing password on unregistered account
+		credentialChangePasswordNotRegisteredMessage = "§cYou are not registered!"
+		#Relative-time text for minutes, supports %d
+		timeMinutesAgoMessage = "%d minutes ago"
+		#Title shown when registration fails validation
+		registrationFailedTitle = "§cRegistration Failed"
+		#Status text for unregistered players in auth_admin list
+		adminListStatusNotRegistered = "§cNot Registered"
+		#Relative-time text for immediate events
+		timeJustNowMessage = "Just now"
+		#Message shown when new password confirmation does not match
+		newPasswordMismatchMessage = "§cNew passwords do not match!"
+		#Admin confirmation after force logout, supports %s for target player
+		adminForceLogoutSuccessMessage = "§aForce logged out %s!"
+		#Message shown after teleporting player back to original location
+		teleportBackSuccessMessage = "§aYou have been returned to your previous location!"
+		#Credential manager maximum length validation message, supports %d for maximum length
+		credentialPasswordMaxLengthMessage = "§cPassword cannot exceed %d characters!"
+		#Status text for registered but not logged in players in auth_admin list
+		adminListStatusNotLoggedIn = "§eNot Logged In"
+		#Subtitle shown after teleport-back completes
+		teleportBackSubtitleMessage = "§aTeleported!"
+		#Subtitle shown to registered player on admin force logout
+		adminForceLogoutSubtitleLogin = "§eUse /login <password>"
+		#Status text for logged in players in auth_admin list
+		adminListStatusLoggedIn = "§aLogged In"
+		#Credential manager success message after password change
+		credentialPasswordChangedMessage = "§aPassword changed successfully!"
+		#Kick message shown when client mod is required but missing
+		requireClientModMessage = "§cThis server requires Sol's AuthLogin mod on your client."
+		#Subtitle shown to player on admin force login
+		adminForceLoginSubtitle = "§eAdmin logged you in"
+		#Credential manager error when user is already registered
+		credentialAlreadyRegisteredMessage = "§cYou are already registered! Use /login instead."
+		#Subtitle shown to unregistered players on join
+		registerPromptSubtitleMessage = "§fUse /register <password> <password>"
+		#Player notification when admin force-logs them in
+		adminForceLoginNotifyMessage = "§aYou have been logged in by an administrator."
+		#Header shown in auth_admin list output
+		adminListHeaderMessage = "§e--- Online Players Authentication Status ---"
+		#Title shown after teleport-back completes
+		teleportBackTitleMessage = ""
+		#Credential manager minimum length validation message, supports %d for minimum length
+		credentialPasswordMinLengthMessage = "§cPassword must be at least %d characters!"
+		#Message shown on successful login
+		loginSuccessMessage = "§aLogin successful! Teleporting in %d seconds..."
+		#Title shown to registered players on join
+		loginPromptTitleMessage = "§e§lAuthentication Required"
+		#Credential manager validation message for required number
+		credentialPasswordRequireNumberMessage = "§cPassword must contain at least one number!"
+		#Subtitle shown on successful auto-login, supports %d for grace seconds
+		autoLoginSubtitleMessage = "§eAuto-login - Teleporting in %ds"
+		#Player notification when admin resets their password
+		adminResetPasswordNotifyMessage = "§eYour password has been reset by an administrator."
+		#Credential manager validation message for required special character
+		credentialPasswordRequireSpecialCharMessage = "§cPassword must contain at least one special character!"
+		#Relative-time text for hours, supports %d
+		timeHoursAgoMessage = "%d hours ago"
+		#Message shown when unauthenticated player runs change_password
+		changePasswordRequireLoginMessage = "§cYou must be logged in to change your password!"
+		#Kick message used after too many failed login attempts
+		loginKickTooManyAttemptsMessage = "§cToo many failed login attempts."
+		#Admin confirmation after force login, supports %s for target player
+		adminForceLoginSuccessMessage = "§aForce logged in %s!"
+		#Post-auth subtitle while waiting teleport-back, supports %d for grace seconds
+		postAuthTeleportSubtitleMessage = "§eTeleporting in %ds"
+		#Message shown to returning players who need to login
+		loginPromptMessage = "§6Welcome back! Please login with §e/login <password>"
+		#Fallback text used when admin info value is unknown
+		adminInfoUnknownText = "Unknown"
+		#Status label used for YES in admin info
+		adminInfoYesText = "§aYes"
+		#Message shown when a console/non-player source runs player-only command
+		notPlayerCommandMessage = "This command can only be used by players!"
+		#Credential manager wrong-password attempts remaining message, supports %d for attempts
+		credentialWrongPasswordRemainingMessage = "§cWrong password! %d attempts remaining."
+		#Message shown when register password and confirmation do not match
+		passwordMismatchMessage = "§cPasswords do not match!"
+		#Message shown when unauthenticated player tries to do something
+		actionBlockedMessage = "§cYou must login first! Use §e/login <password> §cor §e/register <password> <password>"
+		#Admin error when target is not logged in, supports %s for target player
+		adminPlayerNotLoggedInMessage = "§cPlayer %s is not logged in!"
+		#Subtitle shown when registration fails validation
+		registrationFailedSubtitle = "§ePasswords do not match"
+		#Post-auth title for returning players
+		postAuthLoginTitleMessage = "§a§lWelcome Back!"
+		#Status label used for NO in admin info
+		adminInfoNoText = "§cNo"
+		#Title shown to unregistered players on join
+		registerPromptTitleMessage = "§e§lWelcome!"
+		#Credential manager error when current password does not match
+		credentialCurrentPasswordIncorrectMessage = "§cCurrent password is incorrect!"
+		#Title shown on successful auto-login
+		autoLoginTitleMessage = "§a§lWelcome Back!"
+		#Action bar reminder for registered players, supports %d for seconds remaining
+		authReminderLoginActionBarMessage = "§eLogin required! §f%ds remaining §7- /login <password>"
+		#Template for auth_admin info output with placeholders: player, registered, online, authenticated, lastIp, lastLogin
+		adminInfoTemplateMessage = "§e--- Player Info: %s ---\\n§7Registered: %s\\n§7Online: %s\\n§7Authenticated: %s\\n§7Last IP: §f%s\\n§7Last Login: §f%s"
+
+	#Timeout Settings
+	[general.timeout]
+		#Seconds before player is kicked for not logging in (0 = disabled)
+		#Range: 0 ~ 600
+		loginTimeoutSeconds = 180
+		#Minutes to keep session cached for auto-login if same IP reconnects (0 = disabled)
+		#Range: 0 ~ 1440
+		sessionCacheMinutes = 30
+		#Seconds to wait before teleporting player back after successful login
+		#Range: 1 ~ 60
+		gracePeriodSeconds = 5
+
+	#Notification Settings
+	[general.notifications]
+		#Seconds between login reminder messages
+		#Range: 5 ~ 60
+		reminderIntervalSeconds = 10
+		#Show title screen reminders
+		showTitleReminders = true
+		#Show action bar reminders
+		showActionBarReminders = true
+
