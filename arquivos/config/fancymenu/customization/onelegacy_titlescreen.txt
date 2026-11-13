@@ -57,36 +57,6 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  action = setbuttonlabel
-  value = Multijogador
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  action = movebutton
-  orientation = top-right
-  x = -100
-  y = 8
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  action = resizebutton
-  width = 92
-  height = 20
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  action = setbuttontexture
-  backgroundnormal = config/fancymenu/assets/onelegacy/button_normal.png
-  backgroundhovered = config/fancymenu/assets/onelegacy/button_hover.png
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   action = hidebutton
 }
@@ -102,23 +72,71 @@ customization {
 }
 
 customization {
+  action = addbutton
+  actionid = onelegacy_entrar_servidor
+  label = §6§lEntrar no Servidor
+  buttonaction = joinserver
+  value = enx-cirion-81.enx.host:10087
+  description = Entra direto no servidor One Legacy
+  orientation = mid-centered
+  x = -86
+  y = 11
+  width = 172
+  height = 24
+  backgroundnormal = config/fancymenu/assets/onelegacy/button_normal.png
+  backgroundhovered = config/fancymenu/assets/onelegacy/button_hover.png
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = Multijogador
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = movebutton
+  orientation = mid-centered
+  x = -86
+  y = 37
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = resizebutton
+  width = 84
+  height = 24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttontexture
+  backgroundnormal = config/fancymenu/assets/onelegacy/button_normal.png
+  backgroundhovered = config/fancymenu/assets/onelegacy/button_hover.png
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   action = setbuttonlabel
-  value = Jogar
+  value = Um jogador
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   action = movebutton
   orientation = mid-centered
-  x = -86
-  y = 11
+  x = 2
+  y = 37
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   action = resizebutton
-  width = 172
+  width = 84
   height = 24
 }
 
@@ -142,13 +160,13 @@ customization {
   action = movebutton
   orientation = mid-centered
   x = -86
-  y = 37
+  y = 63
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   action = resizebutton
-  width = 172
+  width = 84
   height = 24
 }
 
@@ -171,14 +189,14 @@ customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   action = movebutton
   orientation = mid-centered
-  x = -86
-  y = 64
+  x = 2
+  y = 63
 }
 
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   action = resizebutton
-  width = 172
+  width = 84
   height = 24
 }
 
@@ -202,7 +220,7 @@ customization {
   action = movebutton
   orientation = mid-centered
   x = -86
-  y = 90
+  y = 89
 }
 
 customization {
@@ -220,4 +238,3 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
 }
-
