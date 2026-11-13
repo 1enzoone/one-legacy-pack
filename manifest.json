@@ -1,5 +1,5 @@
 {
- "versao": "2026-11-13.1147",
+ "versao": "2026-11-13.1203",
  "arquivos": [
   {
    "caminho": "mods/AI-Improvements-1.16.5-0.5.0.jar",
@@ -280,8 +280,8 @@
   {
    "caminho": "mods/onelegacyatualizador-1.0.0.jar",
    "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/main/arquivos/mods/onelegacyatualizador-1.0.0.jar",
-   "sha1": "e180300bf0962b5d08f2f0f2cbddddfb65f8af50",
-   "tamanho": 28378
+   "sha1": "b69a22b2f3b767d4a9ac8ed8039ede4b4898c31f",
+   "tamanho": 28251
   },
   {
    "caminho": "mods/onelegacyfx-1.0.0.jar",
