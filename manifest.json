@@ -1,5 +1,5 @@
 {
- "versao": "2026-11-13.1554",
+ "versao": "2026-11-13.1600",
  "arquivos": [
   {
    "caminho": "mods/AI-Improvements-1.16.5-0.5.0.jar",
@@ -146,6 +146,12 @@
    "tamanho": 255252
   },
   {
+   "caminho": "mods/entityculling-forge-mc1.16.5-1.5.2.jar",
+   "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/1.5.2-forge-1.16/entityculling-forge-mc1.16.5-1.5.2.jar",
+   "sha1": "01a838e9fc804dee41fca6045012569fc5df42ce",
+   "tamanho": 46532
+  },
+  {
    "caminho": "mods/fancymenu_forge_2.14.9_MC_1.16.2-1.16.5.jar",
    "url": "https://edge.forgecdn.net/files/4655/938/fancymenu_forge_2.14.9_MC_1.16.2-1.16.5.jar",
    "sha1": "985c454fb36cf79ecf7942c8ae66186ae74a5264",
@@ -273,19 +279,19 @@
   },
   {
    "caminho": "mods/onelegacyatualizador.jar",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/mods/onelegacyatualizador.jar",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/mods/onelegacyatualizador.jar",
    "sha1": "ceb3dc33bf385353d453a21b3107a7396ee0adf2",
    "tamanho": 25876
   },
   {
    "caminho": "mods/onelegacyfx-1.0.0.jar",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/mods/onelegacyfx-1.0.0.jar",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/mods/onelegacyfx-1.0.0.jar",
    "sha1": "9c951ca1b0da503b122e367717d98397d224093a",
    "tamanho": 53547
   },
   {
    "caminho": "mods/onelegacyreinicio.jar",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/mods/onelegacyreinicio.jar",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/mods/onelegacyreinicio.jar",
    "sha1": "6d4f309c9c26dffc5246ee3d740c3e7d58db9d5a",
    "tamanho": 16941
   },
@@ -356,6 +362,12 @@
    "tamanho": 1933363
   },
   {
+   "caminho": "mods/voicechat-forge-1.16.5-2.6.27.jar",
+   "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/8reiMbbt/voicechat-forge-1.16.5-2.6.27.jar",
+   "sha1": "552395405d4d5563b8bc3b9fcd33bfa678a24a5d",
+   "tamanho": 4939137
+  },
+  {
    "caminho": "mods/weaponsconfig-1.1.0.jar",
    "url": "https://edge.forgecdn.net/files/8002/201/weaponsconfig-1.1.0.jar",
    "sha1": "389905149495ede6fdbbebe4a5ee4ced6818394f",
@@ -393,781 +405,781 @@
   },
   {
    "caminho": "config/aiimprovements-common.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/aiimprovements-common.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/aiimprovements-common.toml",
    "sha1": "d040d594802af9380e30a5688cf292a918fc1a3f",
    "tamanho": 6211
   },
   {
    "caminho": "config/alexsmobs.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs.toml",
    "sha1": "0a6612d120f291cdb6ac0cc7d5f6098c87a6b243",
    "tamanho": 22277
   },
   {
    "caminho": "config/appleskin-client.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/appleskin-client.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/appleskin-client.toml",
    "sha1": "01ddb88e420140c33e4cfc0c105edd6e40a5f2c7",
    "tamanho": 1361
   },
   {
    "caminho": "config/blackblades-client.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/blackblades-client.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/blackblades-client.toml",
    "sha1": "ce3edf17d24125ecedcbe633a205ad165079c5eb",
    "tamanho": 1892
   },
   {
    "caminho": "config/blackblades-common.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/blackblades-common.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/blackblades-common.toml",
    "sha1": "bf871662e581f5f24c052cf24c5532e03f2ae1aa",
    "tamanho": 13517
   },
   {
    "caminho": "config/cartaddon-common.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/cartaddon-common.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/cartaddon-common.toml",
    "sha1": "7f8fcbab49d9daef0d5aafb319beec6df883a4c4",
    "tamanho": 3422
   },
   {
    "caminho": "config/chunky.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/chunky.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/chunky.json",
    "sha1": "10a2cc2ed7f0352e524b8557ef67b84d127d08bf",
    "tamanho": 68
   },
   {
    "caminho": "config/citadel-common.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/citadel-common.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/citadel-common.toml",
    "sha1": "1597f9e6182bc37869a28882c0bed724af347507",
    "tamanho": 473
   },
   {
    "caminho": "config/curios-client.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/curios-client.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/curios-client.toml",
    "sha1": "a42264be7e4960427a41f6078bf277db50ba80fb",
    "tamanho": 637
   },
   {
    "caminho": "config/decorative_blocks-common.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/decorative_blocks-common.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/decorative_blocks-common.toml",
    "sha1": "f00f0c0d4224262ac903def331e34b084a1b9cf0",
    "tamanho": 215
   },
   {
    "caminho": "config/dynamic_fps.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/dynamic_fps.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/dynamic_fps.json",
    "sha1": "99f29e77fbf5976dec32b51e5d9eaf9a3839aacf",
    "tamanho": 960
   },
   {
    "caminho": "config/entityculling.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/entityculling.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/entityculling.json",
    "sha1": "91e0e8ee93752a03681e1a3fd51c54bc6bcf76cf",
    "tamanho": 511
   },
   {
    "caminho": "config/explorerscompass-client.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/explorerscompass-client.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/explorerscompass-client.toml",
    "sha1": "546a53467e9b8ccf41cfc475f3371f8386c37cbd",
    "tamanho": 503
   },
   {
    "caminho": "config/explorerscompass-common.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/explorerscompass-common.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/explorerscompass-common.toml",
    "sha1": "e06029a55ad97ca83a09c6a6c8546246d11c55c8",
    "tamanho": 980
   },
   {
    "caminho": "config/fastbench.cfg",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/fastbench.cfg",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/fastbench.cfg",
    "sha1": "55829fd45ed80f7b2cca17e4dc2a1fd3d9ff4cd9",
    "tamanho": 143
   },
   {
    "caminho": "config/ferritecore-mixin.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/ferritecore-mixin.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/ferritecore-mixin.toml",
    "sha1": "e82a04444eed6de53d77bc2fb92e1a16236748ba",
    "tamanho": 1264
   },
   {
    "caminho": "config/fml.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/fml.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/fml.toml",
    "sha1": "9b4be92db18c14e25afcc69a49f7ae06e987c2df",
    "tamanho": 242
   },
   {
    "caminho": "config/forge-client.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/forge-client.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/forge-client.toml",
    "sha1": "21dd91c05c92d5bb9ebccf6280a0b1ffba743f4b",
    "tamanho": 1359
   },
   {
    "caminho": "config/forge-common.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/forge-common.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/forge-common.toml",
    "sha1": "6d9e0733599b3a4c2c22adb7c9740e4c93993992",
    "tamanho": 323
   },
   {
    "caminho": "config/hito_hito_no_mi_nika-common.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/hito_hito_no_mi_nika-common.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/hito_hito_no_mi_nika-common.toml",
    "sha1": "339fb377c61b0e9bb1332b9332afd0544f38bfcb",
    "tamanho": 2015
   },
   {
    "caminho": "config/jade-common.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/jade-common.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/jade-common.toml",
    "sha1": "9c2511387492f6feb4a892ce566f38bbbc17fea9",
    "tamanho": 289
   },
   {
    "caminho": "config/jei-client.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/jei-client.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/jei-client.toml",
    "sha1": "d7b0f2dba9eaec61e483d9d4fb607268d9edb723",
    "tamanho": 3053
   },
   {
    "caminho": "config/mineminenomi-client.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/mineminenomi-client.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/mineminenomi-client.toml",
    "sha1": "3e02c886668ff86ba85618fab331827bf3e2b2c3",
    "tamanho": 2978
   },
   {
    "caminho": "config/mineminenomi-common.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/mineminenomi-common.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/mineminenomi-common.toml",
    "sha1": "0da3fbe6de8dbd68455eede72844320ea7fa6cbf",
    "tamanho": 17849
   },
   {
    "caminho": "config/mineminenomiawakenpath-common.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/mineminenomiawakenpath-common.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/mineminenomiawakenpath-common.toml",
    "sha1": "20fd1df676e1020f6d5fce8f47015026c0ec9e28",
    "tamanho": 288
   },
   {
    "caminho": "config/mmcurios-common.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/mmcurios-common.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/mmcurios-common.toml",
    "sha1": "ed9d92912c0ae07c31e79d1bc7b2719db4e13add",
    "tamanho": 1524
   },
   {
    "caminho": "config/mmwc-common.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/mmwc-common.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/mmwc-common.toml",
    "sha1": "bc68eeb4be2e516030fe9ef01c2b3e4c50e75595",
    "tamanho": 6471
   },
   {
    "caminho": "config/modernfix-common.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/modernfix-common.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/modernfix-common.toml",
    "sha1": "046452d3af87f5c1fd5de5650e3d1b73c930fd92",
    "tamanho": 107
   },
   {
    "caminho": "config/modernfix-mixins.properties",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/modernfix-mixins.properties",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/modernfix-mixins.properties",
    "sha1": "27fa5b35cdc96feb23a95ed61bf379aab67930f5",
    "tamanho": 5363
   },
   {
    "caminho": "config/MouseTweaks.cfg",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/MouseTweaks.cfg",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/MouseTweaks.cfg",
    "sha1": "651b3e4db2d430dc1da3566b2984b264061a6794",
    "tamanho": 135
   },
   {
    "caminho": "config/naturescompass-client.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/naturescompass-client.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/naturescompass-client.toml",
    "sha1": "f452d85364f221ce0752ac26bfd043bc1069bbf2",
    "tamanho": 432
   },
   {
    "caminho": "config/naturescompass-common.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/naturescompass-common.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/naturescompass-common.toml",
    "sha1": "a1a33e55a2e50557eb3c5938040815eca73ae19b",
    "tamanho": 1142
   },
   {
    "caminho": "config/onelegacyfx-client.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/onelegacyfx-client.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/onelegacyfx-client.toml",
    "sha1": "c97534013518a0d5845615d6f4fcec86f17c7d68",
    "tamanho": 488
   },
   {
    "caminho": "config/rubidium-mixins.properties",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/rubidium-mixins.properties",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/rubidium-mixins.properties",
    "sha1": "09db7f09d6dfd063ec4c7c534102892d67655d98",
    "tamanho": 266
   },
   {
    "caminho": "config/smallships-common.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/smallships-common.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/smallships-common.toml",
    "sha1": "ce9133401c528533ab03992e7178fec601cce817",
    "tamanho": 3590
   },
   {
    "caminho": "config/smoothboot.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/smoothboot.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/smoothboot.json",
    "sha1": "45d8def26f22c467a89e89270d982cbe5495ef2a",
    "tamanho": 194
   },
   {
    "caminho": "config/sophisticatedbackpacks-client.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/sophisticatedbackpacks-client.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/sophisticatedbackpacks-client.toml",
    "sha1": "bba7e751f0a137338ee021db6b83610f8baac198",
    "tamanho": 376
   },
   {
    "caminho": "config/sophisticatedbackpacks-common.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/sophisticatedbackpacks-common.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/sophisticatedbackpacks-common.toml",
    "sha1": "e6bb252de45147fad664cefd61d9e3e11b3f4f32",
    "tamanho": 16068
   },
   {
    "caminho": "config/supplementaries-client.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/supplementaries-client.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/supplementaries-client.toml",
    "sha1": "9398860c03972b16a4d6838d2d8ec1d305741171",
    "tamanho": 11585
   },
   {
    "caminho": "config/supplementaries-common.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/supplementaries-common.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/supplementaries-common.toml",
    "sha1": "84f180c95eb597a29459339784b2dbae70521708",
    "tamanho": 14526
   },
   {
    "caminho": "config/supplementaries-registry.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/supplementaries-registry.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/supplementaries-registry.toml",
    "sha1": "68d0d1dd2b7dc64bd514adbafc70a56f29958eca",
    "tamanho": 2019
   },
   {
    "caminho": "config/tombstone-client.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/tombstone-client.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/tombstone-client.toml",
    "sha1": "2387b0f4872767cc5b23cf1fbb7ef3da8ea23be5",
    "tamanho": 3928
   },
   {
    "caminho": "config/tombstone-common.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/tombstone-common.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/tombstone-common.toml",
    "sha1": "68c793b74897a016bd1320ef8e6f7a04c22c437f",
    "tamanho": 10683
   },
   {
    "caminho": "config/tombstone-server.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/tombstone-server.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/tombstone-server.toml",
    "sha1": "40c9f97ba8ca97b5775b4232dc0da52a1f0a284a",
    "tamanho": 8855
   },
   {
    "caminho": "config/waystones-client.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/waystones-client.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/waystones-client.toml",
    "sha1": "477f9029f50ed6254f59570a960d35775f74c0a2",
    "tamanho": 777
   },
   {
    "caminho": "config/waystones-common.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/waystones-common.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/waystones-common.toml",
    "sha1": "b8174377b7ae154e916e76aa825e0c91d5419a00",
    "tamanho": 2338
   },
   {
    "caminho": "config/waystones-server.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/waystones-server.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/waystones-server.toml",
    "sha1": "d46cec85b8c9acf73e1b6579dec4615a90e01778",
    "tamanho": 5259
   },
   {
    "caminho": "config/zitoenpiece-common.toml",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/zitoenpiece-common.toml",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/zitoenpiece-common.toml",
    "sha1": "c02d88c59b688ec8329b4d289dfc96b8dd1959e5",
    "tamanho": 22876
   },
   {
    "caminho": "config/alexsmobs/alligator_snapping_turtle_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/alligator_snapping_turtle_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/alligator_snapping_turtle_spawns.json",
    "sha1": "b1c6fd782bde7e905d2d6e6daf952a82292dc15b",
    "tamanho": 361
   },
   {
    "caminho": "config/alexsmobs/bald_eagle_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/bald_eagle_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/bald_eagle_spawns.json",
    "sha1": "80bc89362e0e8b0840eff762c0c16679f8a1f01c",
    "tamanho": 331
   },
   {
    "caminho": "config/alexsmobs/blobfish_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/blobfish_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/blobfish_spawns.json",
    "sha1": "465c6d00e6b7b668cdc90ce1eda1933c64027cb7",
    "tamanho": 549
   },
   {
    "caminho": "config/alexsmobs/bone_serpent_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/bone_serpent_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/bone_serpent_spawns.json",
    "sha1": "e63331dbb4d16fbf122365d09eca4ec208fbe239",
    "tamanho": 130
   },
   {
    "caminho": "config/alexsmobs/cachalot_whale_beached_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/cachalot_whale_beached_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/cachalot_whale_beached_spawns.json",
    "sha1": "02b57cc11eefb8f424f66ea2000da68ee69a601a",
    "tamanho": 230
   },
   {
    "caminho": "config/alexsmobs/cachalot_whale_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/cachalot_whale_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/cachalot_whale_spawns.json",
    "sha1": "17959471f2f71cc9ca180da96ac4b3077810fb31",
    "tamanho": 720
   },
   {
    "caminho": "config/alexsmobs/capuchin_monkey_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/capuchin_monkey_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/capuchin_monkey_spawns.json",
    "sha1": "7893b49b763d17626864dc42b4ac40fbc9e29c2d",
    "tamanho": 471
   },
   {
    "caminho": "config/alexsmobs/cave_centipede_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/cave_centipede_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/cave_centipede_spawns.json",
    "sha1": "666441dd56fe831e66db3e2757c5af997fdfdcbc",
    "tamanho": 328
   },
   {
    "caminho": "config/alexsmobs/cockroach_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/cockroach_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/cockroach_spawns.json",
    "sha1": "666441dd56fe831e66db3e2757c5af997fdfdcbc",
    "tamanho": 328
   },
   {
    "caminho": "config/alexsmobs/crimson_mosquito_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/crimson_mosquito_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/crimson_mosquito_spawns.json",
    "sha1": "c8b07b16fffb47202874a158164839b893b387ff",
    "tamanho": 411
   },
   {
    "caminho": "config/alexsmobs/crocodile_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/crocodile_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/crocodile_spawns.json",
    "sha1": "0351ed0452c9e0de8f32fb8f557bc4a5990fe867",
    "tamanho": 799
   },
   {
    "caminho": "config/alexsmobs/crow_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/crow_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/crow_spawns.json",
    "sha1": "1b0cd03d9def9b4e27acfde2388253043eda0434",
    "tamanho": 638
   },
   {
    "caminho": "config/alexsmobs/dropbear_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/dropbear_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/dropbear_spawns.json",
    "sha1": "eaf347c64c7ef7ca3157db0e62abefdb5c4e62e1",
    "tamanho": 288
   },
   {
    "caminho": "config/alexsmobs/elephant_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/elephant_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/elephant_spawns.json",
    "sha1": "ac4d6368e72a00b439c37a9ea71f98652e0197d9",
    "tamanho": 448
   },
   {
    "caminho": "config/alexsmobs/emu_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/emu_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/emu_spawns.json",
    "sha1": "5c2d5547c194379ba768745b39568d593a8007b1",
    "tamanho": 441
   },
   {
    "caminho": "config/alexsmobs/endergrade_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/endergrade_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/endergrade_spawns.json",
    "sha1": "3f67e0ff32239e61233ed8dc88f282140c144342",
    "tamanho": 238
   },
   {
    "caminho": "config/alexsmobs/enderiophage_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/enderiophage_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/enderiophage_spawns.json",
    "sha1": "7ff630cdcec018ee92e3e0cb281f4969c6487d7d",
    "tamanho": 591
   },
   {
    "caminho": "config/alexsmobs/fly_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/fly_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/fly_spawns.json",
    "sha1": "94ec00e49a8bb131d32807887cdd45bd6d5927e3",
    "tamanho": 329
   },
   {
    "caminho": "config/alexsmobs/frilled_shark_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/frilled_shark_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/frilled_shark_spawns.json",
    "sha1": "465c6d00e6b7b668cdc90ce1eda1933c64027cb7",
    "tamanho": 549
   },
   {
    "caminho": "config/alexsmobs/gazelle_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/gazelle_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/gazelle_spawns.json",
    "sha1": "ac4d6368e72a00b439c37a9ea71f98652e0197d9",
    "tamanho": 448
   },
   {
    "caminho": "config/alexsmobs/gorilla_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/gorilla_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/gorilla_spawns.json",
    "sha1": "7893b49b763d17626864dc42b4ac40fbc9e29c2d",
    "tamanho": 471
   },
   {
    "caminho": "config/alexsmobs/grizzly_bear_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/grizzly_bear_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/grizzly_bear_spawns.json",
    "sha1": "2aa124d7e0f5e2c92e49e9842e5bf3cb882e8c0c",
    "tamanho": 685
   },
   {
    "caminho": "config/alexsmobs/guster_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/guster_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/guster_spawns.json",
    "sha1": "9e35e6c2545c783f096e711845a447234dbafc55",
    "tamanho": 420
   },
   {
    "caminho": "config/alexsmobs/hammerhead_shark_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/hammerhead_shark_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/hammerhead_shark_spawns.json",
    "sha1": "022ea8568b29f5da31874e7d30bc3156b36a27d0",
    "tamanho": 325
   },
   {
    "caminho": "config/alexsmobs/hummingbird_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/hummingbird_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/hummingbird_spawns.json",
    "sha1": "cb6b52a8c4921eced097a487d4dccc5dde04df57",
    "tamanho": 494
   },
   {
    "caminho": "config/alexsmobs/kangaroo_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/kangaroo_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/kangaroo_spawns.json",
    "sha1": "5c2d5547c194379ba768745b39568d593a8007b1",
    "tamanho": 441
   },
   {
    "caminho": "config/alexsmobs/komodo_dragon_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/komodo_dragon_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/komodo_dragon_spawns.json",
    "sha1": "9f3bc0ab9fb0980933a516ea38f5ccb9fff7c910",
    "tamanho": 363
   },
   {
    "caminho": "config/alexsmobs/leafcutter_anthill_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/leafcutter_anthill_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/leafcutter_anthill_spawns.json",
    "sha1": "7893b49b763d17626864dc42b4ac40fbc9e29c2d",
    "tamanho": 471
   },
   {
    "caminho": "config/alexsmobs/lobster_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/lobster_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/lobster_spawns.json",
    "sha1": "02b57cc11eefb8f424f66ea2000da68ee69a601a",
    "tamanho": 230
   },
   {
    "caminho": "config/alexsmobs/mantis_shrimp_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/mantis_shrimp_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/mantis_shrimp_spawns.json",
    "sha1": "022ea8568b29f5da31874e7d30bc3156b36a27d0",
    "tamanho": 325
   },
   {
    "caminho": "config/alexsmobs/mimicube_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/mimicube_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/mimicube_spawns.json",
    "sha1": "3f67e0ff32239e61233ed8dc88f282140c144342",
    "tamanho": 238
   },
   {
    "caminho": "config/alexsmobs/mimic_octopus_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/mimic_octopus_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/mimic_octopus_spawns.json",
    "sha1": "092dd88dd4ba899dc4f432aa8ec9c706b8c6f411",
    "tamanho": 444
   },
   {
    "caminho": "config/alexsmobs/moose_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/moose_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/moose_spawns.json",
    "sha1": "4367b1acea6e5a648ae2b416858c178fc7548f27",
    "tamanho": 770
   },
   {
    "caminho": "config/alexsmobs/mungus_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/mungus_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/mungus_spawns.json",
    "sha1": "04fb692c93afab8ea3535add9fcc2bf57927667c",
    "tamanho": 329
   },
   {
    "caminho": "config/alexsmobs/orca_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/orca_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/orca_spawns.json",
    "sha1": "66e8c73f06d69e1c5ffd7bce4946084002302f28",
    "tamanho": 326
   },
   {
    "caminho": "config/alexsmobs/platypus_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/platypus_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/platypus_spawns.json",
    "sha1": "82f712961093d40ce3675713f60c0cf39c651043",
    "tamanho": 456
   },
   {
    "caminho": "config/alexsmobs/raccoon_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/raccoon_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/raccoon_spawns.json",
    "sha1": "1b0cd03d9def9b4e27acfde2388253043eda0434",
    "tamanho": 638
   },
   {
    "caminho": "config/alexsmobs/rattlesnake_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/rattlesnake_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/rattlesnake_spawns.json",
    "sha1": "f4654a0cbe598556e01b17dcb3a82f76b5c1c241",
    "tamanho": 444
   },
   {
    "caminho": "config/alexsmobs/roadrunner_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/roadrunner_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/roadrunner_spawns.json",
    "sha1": "f4654a0cbe598556e01b17dcb3a82f76b5c1c241",
    "tamanho": 444
   },
   {
    "caminho": "config/alexsmobs/seagull_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/seagull_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/seagull_spawns.json",
    "sha1": "02b57cc11eefb8f424f66ea2000da68ee69a601a",
    "tamanho": 230
   },
   {
    "caminho": "config/alexsmobs/seal_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/seal_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/seal_spawns.json",
    "sha1": "8b6e4bf7f72f73431f6405900f80fe570d0867f6",
    "tamanho": 537
   },
   {
    "caminho": "config/alexsmobs/shoebill_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/shoebill_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/shoebill_spawns.json",
    "sha1": "b1c6fd782bde7e905d2d6e6daf952a82292dc15b",
    "tamanho": 361
   },
   {
    "caminho": "config/alexsmobs/snow_leopard_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/snow_leopard_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/snow_leopard_spawns.json",
    "sha1": "a526f0dfa506096539b51526ca377e4feb046d18",
    "tamanho": 330
   },
   {
    "caminho": "config/alexsmobs/soul_vulture_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/soul_vulture_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/soul_vulture_spawns.json",
    "sha1": "e7741122956d5fb2109b035071f34badf26a6c58",
    "tamanho": 277
   },
   {
    "caminho": "config/alexsmobs/spectre_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/spectre_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/spectre_spawns.json",
    "sha1": "3f67e0ff32239e61233ed8dc88f282140c144342",
    "tamanho": 238
   },
   {
    "caminho": "config/alexsmobs/straddler_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/straddler_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/straddler_spawns.json",
    "sha1": "e8360ff4903edc6aabaaf011f886d68aaf91adfd",
    "tamanho": 285
   },
   {
    "caminho": "config/alexsmobs/stradpole_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/stradpole_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/stradpole_spawns.json",
    "sha1": "e8360ff4903edc6aabaaf011f886d68aaf91adfd",
    "tamanho": 285
   },
   {
    "caminho": "config/alexsmobs/sunbird_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/sunbird_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/sunbird_spawns.json",
    "sha1": "e158ec0a1c49e0986958e4d81aabaabc6aca368e",
    "tamanho": 233
   },
   {
    "caminho": "config/alexsmobs/tarantula_hawk_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/tarantula_hawk_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/tarantula_hawk_spawns.json",
    "sha1": "b9eefb4f5c8a8faf270acaf3e9c0a800ae26e8a4",
    "tamanho": 235
   },
   {
    "caminho": "config/alexsmobs/tasmanian_devil_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/tasmanian_devil_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/tasmanian_devil_spawns.json",
    "sha1": "692f39905432f86d2b961720d3d79aca0a5e96a7",
    "tamanho": 663
   },
   {
    "caminho": "config/alexsmobs/tiger_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/tiger_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/tiger_spawns.json",
    "sha1": "836c22e55c91df5f12f32fff06f8d5b7272fa4dc",
    "tamanho": 770
   },
   {
    "caminho": "config/alexsmobs/void_worm_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/void_worm_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/void_worm_spawns.json",
    "sha1": "1ae814f47278ae5e83f93b711cb1b22df42fa5c4",
    "tamanho": 18
   },
   {
    "caminho": "config/alexsmobs/warped_mosco_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/warped_mosco_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/warped_mosco_spawns.json",
    "sha1": "1ae814f47278ae5e83f93b711cb1b22df42fa5c4",
    "tamanho": 18
   },
   {
    "caminho": "config/alexsmobs/warped_toad_spawns.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/alexsmobs/warped_toad_spawns.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/alexsmobs/warped_toad_spawns.json",
    "sha1": "78be938a3a4b3b74647dd13c5c576b389c4f11d2",
    "tamanho": 400
   },
   {
    "caminho": "config/fancymenu/config.txt",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/fancymenu/config.txt",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/fancymenu/config.txt",
    "sha1": "ed2a4ae437fa9617ed6daf7f2fd65bb68e3b2a34",
    "tamanho": 1731
   },
   {
    "caminho": "config/fancymenu/customizablemenus.txt",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/fancymenu/customizablemenus.txt",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/fancymenu/customizablemenus.txt",
    "sha1": "786a36bbefd9b1542aca25de9d56e6e8ff7d8fb2",
    "tamanho": 78
   },
   {
    "caminho": "config/fancymenu/menu_identifiers.db",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/fancymenu/menu_identifiers.db",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/fancymenu/menu_identifiers.db",
    "sha1": "c4ffbfdf7e6bc0e711bd5ee8b59751d9b3c218b6",
    "tamanho": 10497
   },
   {
    "caminho": "config/fancymenu/user_variables.db",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/fancymenu/user_variables.db",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/fancymenu/user_variables.db",
    "sha1": "3eeef87ee5e7b978339ad53e5e97deecc694b849",
    "tamanho": 40
   },
   {
    "caminho": "config/fancymenu/assets/onelegacy/background.png",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/fancymenu/assets/onelegacy/background.png",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/fancymenu/assets/onelegacy/background.png",
    "sha1": "c11b28a1e311ec8f991b505279e657bc7c5accb9",
    "tamanho": 2439488
   },
   {
    "caminho": "config/fancymenu/assets/onelegacy/button_hover.png",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/fancymenu/assets/onelegacy/button_hover.png",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/fancymenu/assets/onelegacy/button_hover.png",
    "sha1": "51253854af609390de8118aa6922a6e00d8e5dbf",
    "tamanho": 27477
   },
   {
    "caminho": "config/fancymenu/assets/onelegacy/button_normal.png",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/fancymenu/assets/onelegacy/button_normal.png",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/fancymenu/assets/onelegacy/button_normal.png",
    "sha1": "611da3a1a527d483b19f38bfd36ec868102c6bed",
    "tamanho": 27969
   },
   {
    "caminho": "config/fancymenu/customization/onelegacy_titlescreen.txt",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/fancymenu/customization/onelegacy_titlescreen.txt",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/fancymenu/customization/onelegacy_titlescreen.txt",
    "sha1": "bd21f175337f0895f03ef68add1a8d8412b3da44",
    "tamanho": 5353
   },
   {
    "caminho": "config/fancymenu/locals/de_de.local",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/fancymenu/locals/de_de.local",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/fancymenu/locals/de_de.local",
    "sha1": "98b50323485e91e3cc989364873878e42386c372",
    "tamanho": 27376
   },
   {
    "caminho": "config/fancymenu/locals/en_us.local",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/fancymenu/locals/en_us.local",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/fancymenu/locals/en_us.local",
    "sha1": "ea7f22c6fa54909605b1d8cb4b45a1e0d8ca6a44",
    "tamanho": 113824
   },
   {
    "caminho": "config/fancymenu/locals/pl_pl.local",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/fancymenu/locals/pl_pl.local",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/fancymenu/locals/pl_pl.local",
    "sha1": "6b065a9ef9287ac5c88775c78f247f607764ad12",
    "tamanho": 13858
   },
   {
    "caminho": "config/fancymenu/locals/pt_br.local",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/fancymenu/locals/pt_br.local",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/fancymenu/locals/pt_br.local",
    "sha1": "ab64076d828f5700d3b7e5a5a312b76eaa3e1b16",
    "tamanho": 14283
   },
   {
    "caminho": "config/fancymenu/locals/ru_ru.local",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/fancymenu/locals/ru_ru.local",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/fancymenu/locals/ru_ru.local",
    "sha1": "097bf0d21a71879b3a87508324bb11051c52ba1b",
    "tamanho": 155574
   },
   {
    "caminho": "config/fancymenu/locals/uk_ua.local",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/fancymenu/locals/uk_ua.local",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/fancymenu/locals/uk_ua.local",
    "sha1": "58a9404fd84d78331701a6e81c34382bae55a7dd",
    "tamanho": 147984
   },
   {
    "caminho": "config/fancymenu/locals/zh_cn.local",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/fancymenu/locals/zh_cn.local",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/fancymenu/locals/zh_cn.local",
    "sha1": "8e166ec05744eb904901dbedcd5b9374c1ba8f97",
    "tamanho": 52106
   },
   {
    "caminho": "config/konkrete/locals/de_de.local",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/konkrete/locals/de_de.local",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/konkrete/locals/de_de.local",
    "sha1": "02adaf2602f1ba03a9352db3d10a6fac3a02aea5",
    "tamanho": 369
   },
   {
    "caminho": "config/konkrete/locals/en_us.local",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/konkrete/locals/en_us.local",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/konkrete/locals/en_us.local",
    "sha1": "42badc338e767559db38a67bd3e8020a92000e56",
    "tamanho": 426
   },
   {
    "caminho": "config/konkrete/locals/pl_pl.local",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/konkrete/locals/pl_pl.local",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/konkrete/locals/pl_pl.local",
    "sha1": "adf2ded54b4952ca83af26a1217e2c5db8ac1429",
    "tamanho": 313
   },
   {
    "caminho": "config/konkrete/locals/pt_br.local",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/konkrete/locals/pt_br.local",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/konkrete/locals/pt_br.local",
    "sha1": "9c324fb4d33106366e6cbb5400c8c34f11539d34",
    "tamanho": 322
   },
   {
    "caminho": "config/tombstone/version.info",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/tombstone/version.info",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/tombstone/version.info",
    "sha1": "5611655cf77fe8960b2e5589920c36c2d628f4cc",
    "tamanho": 5
   },
   {
    "caminho": "config/tombstone/loottables/tombstone-pool-cat_morning.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/tombstone/loottables/tombstone-pool-cat_morning.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/tombstone/loottables/tombstone-pool-cat_morning.json",
    "sha1": "e2a9651b06be2549b850858c8bf6db2ebad8bf90",
    "tamanho": 926
   },
   {
    "caminho": "config/tombstone/loottables/tombstone-pool-chest_treasure.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/tombstone/loottables/tombstone-pool-chest_treasure.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/tombstone/loottables/tombstone-pool-chest_treasure.json",
    "sha1": "e85cd65b1cf2970b8f9e513026d45073c277e541",
    "tamanho": 2075
   },
   {
    "caminho": "config/tombstone/loottables/tombstone-pool-lost_treasure.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/tombstone/loottables/tombstone-pool-lost_treasure.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/tombstone/loottables/tombstone-pool-lost_treasure.json",
    "sha1": "c26bd73e14bb1acf65e8eccb8192350be97384d9",
    "tamanho": 2453
   },
   {
    "caminho": "config/tombstone/loottables/tombstone-pool-seeker_rod.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/tombstone/loottables/tombstone-pool-seeker_rod.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/tombstone/loottables/tombstone-pool-seeker_rod.json",
    "sha1": "e5d8528d5c34f7e2ec8b63af8174d4b25e434400",
    "tamanho": 906
   },
   {
    "caminho": "config/tombstone/loottables/tombstone-pool-undead_boss.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/tombstone/loottables/tombstone-pool-undead_boss.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/tombstone/loottables/tombstone-pool-undead_boss.json",
    "sha1": "c00e7dc5bfa2eba14b318e22a1cbad6facc43cec",
    "tamanho": 1413
   },
   {
    "caminho": "config/tombstone/loottables/tombstone-pool-undead_mob.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/tombstone/loottables/tombstone-pool-undead_mob.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/tombstone/loottables/tombstone-pool-undead_mob.json",
    "sha1": "c9bfeeef2b31caa196d6c71f1314508b5e816abb",
    "tamanho": 725
   },
   {
    "caminho": "config/waila/waila.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/waila/waila.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/waila/waila.json",
    "sha1": "a4f6e314d4ff2b42491f8ae499656a0ba926f305",
    "tamanho": 1152
   },
   {
    "caminho": "config/waila/waila_plugins.json",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/config/waila/waila_plugins.json",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/config/waila/waila_plugins.json",
    "sha1": "7333343f22c0bc326c9d1a9c557d22b9495a7e19",
    "tamanho": 1133
   },
@@ -1179,13 +1191,13 @@
   },
   {
    "caminho": "resourcepacks/One Legacy - Correcoes 3D.zip",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/resourcepacks/One%20Legacy%20-%20Correcoes%203D.zip",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/resourcepacks/One%20Legacy%20-%20Correcoes%203D.zip",
    "sha1": "a7742eb760eda174e98f4f6fa371b3d9efc785ec",
    "tamanho": 5435140
   },
   {
    "caminho": "GUIA.html",
-   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1554/arquivos/GUIA.html",
+   "url": "https://raw.githubusercontent.com/1enzoone/one-legacy-pack/v2026-11-13.1600/arquivos/GUIA.html",
    "sha1": "b992b7919bf9b55112d3edce6e1416bf9b6d6641",
    "tamanho": 14171
   }
