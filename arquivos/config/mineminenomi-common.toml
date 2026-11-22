@@ -6,7 +6,7 @@
 	#Multiplies any haki gained from non-player kills by this amount (commands not included)
 	#Default: 1
 	#Range: 0.0 ~ 10.0
-	"Haki Exp Multiplier" = 1.5
+	"Haki Exp Multiplier" = 0.5
 	#Destroys the spawner after all its spawns are killed
 	#Default: true
 	"Destroy Spawner" = true
@@ -29,7 +29,7 @@
 	#Multiplies any doriki gained from non-player kills by this amount (commands not included)
 	#Default: 1
 	#Range: 0.0 ~ 10.0
-	"Doriki Reward Multiplier" = 1.5
+	"Doriki Reward Multiplier" = 0.5
 	#Allows players to receive extra hearts based on their doriki
 	#Default: true
 	"Extra Hearts" = true
