@@ -262,7 +262,7 @@
 #Territory Claiming Settings
 [territory_system]
 	#Allow block destruction inside territories.
-	allowBlockDestruction = false
+	allowBlockDestruction = true
 	#Minimum Marine rank required to claim territory (enum name, e.g. CAPTAIN).
 	marineRankRequired = "ADMIRAL"
 	#Ticks between block restoration cycles.

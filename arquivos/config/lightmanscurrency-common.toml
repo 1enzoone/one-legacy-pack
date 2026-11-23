@@ -46,7 +46,7 @@
 		#Entities that will drop a large amount of T1 -> T3 loot.
 		bossEntityListT3 = []
 		#Whether coins can be dropped by entities. Does not effect chest loot generation.
-		enableEntityDrops = true
+		enableEntityDrops = false
 		#Entities that will drop a large amount of T1 loot.
 		bossEntityListT1 = []
 		#Entities that will occasionally drop T1 -> T3 loot.
